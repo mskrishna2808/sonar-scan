@@ -1,8 +1,8 @@
 name : Testing SonarQube
 
 on:
-  pull_request:
-    branches: [dev]
+  push:
+    branches: [feature-1]
 
 jobs:
   Testing_sonarqube_report:
