@@ -2,7 +2,7 @@ name : Testing SonarQube
 
 on:
   push:
-    branches: [dev]
+    branches: [feature-1]
 
 jobs:
   Testing_sonarqube_report:
